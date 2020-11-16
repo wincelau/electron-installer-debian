@@ -67,6 +67,7 @@ Say your Electron app lives in `path/to/app`, and has a structure like this:
 You now run `electron-packager` to build the app for Debian:
 
 ```
+$ npm install -g electron-packager
 $ electron-packager . app --platform linux --arch x64 --out dist/
 ```
 
